@@ -267,6 +267,12 @@ export const EnglishLang: languageContainer = {
         input: [require('./markdown/sgdb-api-input.md')]
       }
     },
+    steamscraperProvider: {
+      docs__md: {
+        self: [],
+        input: [require('./markdown/steamscraper-api-input.md')]
+      }
+    },
     logger: {
       component: {
         noMessages: 'No messages are available',
@@ -464,7 +470,8 @@ export const EnglishLang: languageContainer = {
           ],
           imageProviders: [
             require('./markdown/image-providers.md'),
-            require('./markdown/sgdb-api-input.md')
+            require('./markdown/sgdb-api-input.md'),
+            require('./markdown/steamscraper-api-input.md')
           ],
           imagePool: [
             require('./markdown/image-pool.md'),

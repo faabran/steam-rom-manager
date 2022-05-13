@@ -34,6 +34,10 @@ export const providerInfoLang: ProviderInfo = {
         info: APP.lang.sgdbProvider.docs__md.input.join('')
       }
     }
+  },
+  SteamScraper: {
+    info: APP.lang.steamscraperProvider.docs__md.self.join(''),
+    inputs: {}
   }
 };
 

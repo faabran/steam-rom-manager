@@ -216,6 +216,12 @@ export interface languageStruct {
         input: string[]
       }
     },
+    steamscraperProvider: {
+      docs__md: {
+        self: string[],
+        input: string[]
+      }
+    },
     logger: {
       component: {
         noMessages: string,

@@ -40,7 +40,9 @@ export const providerInfo: ProviderInfo = {
       }
     }
   },
-  SteamScraper: {}
+  SteamScraper: {
+    inputs: {}
+  }
 };
 
 export const availableProviders = Object.keys(providerInfo);
